@@ -1,0 +1,13 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "快乐英语乐园",
+  "usingComponents": {
+    "home-view": "../../components/HomeView",
+    "word-view": "../../components/WordView",
+    "quiz-view": "../../components/QuizView",
+    "talk-view": "../../components/TalkView",
+    "about-view": "../../components/AboutView",
+    "learn-center-view": "../../components/LearnCenterView",
+    "wrong-book-view": "../../components/WrongBookView"
+  }
+}

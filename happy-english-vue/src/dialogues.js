@@ -1,0 +1,1053 @@
+// 自动提取自 deploy/index.html（日常口语对话，170 句，已去重）
+export const DIALOGUES = [
+  {
+    "id": "greet",
+    "title": "打招呼",
+    "sub": "Hello / Good morning",
+    "icon": "👋",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "Hello!",
+        "zh": "你好！"
+      },
+      {
+        "who": "👦",
+        "en": "Hi! Good morning!",
+        "zh": "嗨！早上好！"
+      },
+      {
+        "who": "👧",
+        "en": "What is your name?",
+        "zh": "你叫什么名字？"
+      },
+      {
+        "who": "👦",
+        "en": "My name is Tom.",
+        "zh": "我的名字是汤姆。"
+      },
+      {
+        "who": "👧",
+        "en": "Goodbye!",
+        "zh": "再见！"
+      },
+      {
+        "who": "👦",
+        "en": "Bye-bye!",
+        "zh": "拜拜！"
+      },
+      {
+        "who": "👧",
+        "en": "Good afternoon!",
+        "zh": "下午好！"
+      },
+      {
+        "who": "👦",
+        "en": "Good evening!",
+        "zh": "晚上好！"
+      },
+      {
+        "who": "👧",
+        "en": "Nice to meet you.",
+        "zh": "很高兴认识你。"
+      },
+      {
+        "who": "👦",
+        "en": "Nice to meet you, too.",
+        "zh": "我也很高兴认识你。"
+      },
+      {
+        "who": "👧",
+        "en": "See you!",
+        "zh": "再见！"
+      },
+      {
+        "who": "👦",
+        "en": "Good night.",
+        "zh": "晚安。"
+      }
+    ]
+  },
+  {
+    "id": "how",
+    "title": "问好",
+    "sub": "How are you?",
+    "icon": "😊",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "How are you?",
+        "zh": "你好吗？"
+      },
+      {
+        "who": "👦",
+        "en": "I am fine, thank you.",
+        "zh": "我很好，谢谢。"
+      },
+      {
+        "who": "👧",
+        "en": "And you?",
+        "zh": "你呢？"
+      },
+      {
+        "who": "👦",
+        "en": "I am fine, too.",
+        "zh": "我也很好。"
+      },
+      {
+        "who": "👧",
+        "en": "How are you today?",
+        "zh": "你今天好吗？"
+      },
+      {
+        "who": "👦",
+        "en": "I'm great!",
+        "zh": "我很好！"
+      }
+    ]
+  },
+  {
+    "id": "school",
+    "title": "在学校",
+    "sub": "In the classroom",
+    "icon": "🏫",
+    "lines": [
+      {
+        "who": "👩‍🏫",
+        "en": "Good morning, class!",
+        "zh": "同学们，早上好！"
+      },
+      {
+        "who": "👧",
+        "en": "Good morning, teacher!",
+        "zh": "老师，早上好！"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Open your book, please.",
+        "zh": "请打开你们的书。"
+      },
+      {
+        "who": "👧",
+        "en": "OK!",
+        "zh": "好的！"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Show me your ruler.",
+        "zh": "把尺子给我看看。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Stand up, please.",
+        "zh": "请起立。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Sit down, please.",
+        "zh": "请坐下。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Close your book.",
+        "zh": "合上你的书。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Look at the blackboard.",
+        "zh": "看黑板。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Listen to me.",
+        "zh": "听我说。"
+      },
+      {
+        "who": "👦",
+        "en": "May I come in?",
+        "zh": "我可以进来吗？"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Come in, please.",
+        "zh": "请进。"
+      },
+      {
+        "who": "👦",
+        "en": "May I ask a question?",
+        "zh": "我可以提个问题吗？"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Raise your hand.",
+        "zh": "举手。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Be quiet, please.",
+        "zh": "请安静。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Let's read after me.",
+        "zh": "跟我一起读。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Welcome back to school.",
+        "zh": "欢迎回到学校。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Welcome to our class.",
+        "zh": "欢迎来到我们班。"
+      },
+      {
+        "who": "👦",
+        "en": "Can I go to the toilet?",
+        "zh": "我可以去洗手间吗？"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Hand in your homework.",
+        "zh": "交作业。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Don't talk in class.",
+        "zh": "课堂上不要说话。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "See you tomorrow at school.",
+        "zh": "明天学校见。"
+      }
+    ]
+  },
+  {
+    "id": "food",
+    "title": "喜欢的食物",
+    "sub": "Do you like...?",
+    "icon": "🍎",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "Do you like apples?",
+        "zh": "你喜欢苹果吗？"
+      },
+      {
+        "who": "👧",
+        "en": "Yes, I do.",
+        "zh": "是的，我喜欢。"
+      },
+      {
+        "who": "👦",
+        "en": "Do you like bananas?",
+        "zh": "你喜欢香蕉吗？"
+      },
+      {
+        "who": "👧",
+        "en": "No, I don't.",
+        "zh": "不，我不喜欢。"
+      },
+      {
+        "who": "👦",
+        "en": "I like milk.",
+        "zh": "我喜欢牛奶。"
+      },
+      {
+        "who": "👧",
+        "en": "I don't like carrots.",
+        "zh": "我不喜欢胡萝卜。"
+      },
+      {
+        "who": "👦",
+        "en": "It's yummy!",
+        "zh": "真好吃！"
+      },
+      {
+        "who": "👧",
+        "en": "Have some more.",
+        "zh": "再多吃一点。"
+      },
+      {
+        "who": "👦",
+        "en": "I'm full.",
+        "zh": "我饱了。"
+      },
+      {
+        "who": "👧",
+        "en": "I like apples.",
+        "zh": "我喜欢苹果。"
+      },
+      {
+        "who": "👦",
+        "en": "Pass me the spoon.",
+        "zh": "把勺子递给我。"
+      },
+      {
+        "who": "👩",
+        "en": "Clean up the plate.",
+        "zh": "把盘子收拾干净。"
+      },
+      {
+        "who": "👦",
+        "en": "I'm full, no more.",
+        "zh": "我饱了，不吃啦。"
+      }
+    ]
+  },
+  {
+    "id": "drink",
+    "title": "口渴了",
+    "sub": "I am thirsty",
+    "icon": "🥛",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "Are you thirsty?",
+        "zh": "你渴了吗？"
+      },
+      {
+        "who": "👦",
+        "en": "Yes, I am.",
+        "zh": "是的，我渴了。"
+      },
+      {
+        "who": "👧",
+        "en": "Have some water.",
+        "zh": "喝点水吧。"
+      },
+      {
+        "who": "👦",
+        "en": "Thanks!",
+        "zh": "谢谢你！"
+      },
+      {
+        "who": "👧",
+        "en": "I'm thirsty.",
+        "zh": "我渴了。"
+      },
+      {
+        "who": "👦",
+        "en": "I want some water.",
+        "zh": "我想要喝点水。"
+      },
+      {
+        "who": "👧",
+        "en": "A cup of juice, please.",
+        "zh": "请给我一杯果汁。"
+      }
+    ]
+  },
+  {
+    "id": "weather",
+    "title": "天气",
+    "sub": "How is the weather?",
+    "icon": "☀️",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "How is the weather?",
+        "zh": "天气怎么样？"
+      },
+      {
+        "who": "👧",
+        "en": "It is sunny.",
+        "zh": "是晴天。"
+      },
+      {
+        "who": "👦",
+        "en": "Let's go out!",
+        "zh": "我们出去吧！"
+      },
+      {
+        "who": "👧",
+        "en": "Great!",
+        "zh": "太好啦！"
+      },
+      {
+        "who": "👦",
+        "en": "It's sunny today.",
+        "zh": "今天天晴。"
+      },
+      {
+        "who": "👧",
+        "en": "It's a nice day today.",
+        "zh": "今天天气真好。"
+      }
+    ]
+  },
+  {
+    "id": "season",
+    "title": "最喜欢的季节",
+    "sub": "My favourite season",
+    "icon": "🍂",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "What is your favourite season?",
+        "zh": "你最喜欢哪个季节？"
+      },
+      {
+        "who": "👦",
+        "en": "I like spring.",
+        "zh": "我喜欢春天。"
+      },
+      {
+        "who": "👧",
+        "en": "Why?",
+        "zh": "为什么？"
+      },
+      {
+        "who": "👦",
+        "en": "It is warm and green.",
+        "zh": "因为温暖又绿意盎然。"
+      }
+    ]
+  },
+  {
+    "id": "family",
+    "title": "我的家人",
+    "sub": "This is my family",
+    "icon": "👨‍👩‍👧",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "This is my father.",
+        "zh": "这是我的爸爸。"
+      },
+      {
+        "who": "👦",
+        "en": "He is tall.",
+        "zh": "他很高。"
+      },
+      {
+        "who": "👧",
+        "en": "This is my mother.",
+        "zh": "这是我的妈妈。"
+      },
+      {
+        "who": "👦",
+        "en": "She is beautiful.",
+        "zh": "她很漂亮。"
+      },
+      {
+        "who": "👧",
+        "en": "I love my mom.",
+        "zh": "我爱我的妈妈。"
+      },
+      {
+        "who": "👦",
+        "en": "I love my dad.",
+        "zh": "我爱我的爸爸。"
+      },
+      {
+        "who": "👧",
+        "en": "Come and meet my friend.",
+        "zh": "过来见见我的朋友。"
+      }
+    ]
+  },
+  {
+    "id": "age",
+    "title": "问年龄",
+    "sub": "How old are you?",
+    "icon": "🎂",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "How old are you?",
+        "zh": "你几岁了？"
+      },
+      {
+        "who": "👧",
+        "en": "I am eight.",
+        "zh": "我八岁。"
+      },
+      {
+        "who": "👦",
+        "en": "I am seven.",
+        "zh": "我七岁。"
+      }
+    ]
+  },
+  {
+    "id": "pet",
+    "title": "我的宠物",
+    "sub": "I have a pet",
+    "icon": "🐱",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "Do you have a pet?",
+        "zh": "你有宠物吗？"
+      },
+      {
+        "who": "👦",
+        "en": "Yes, I have a dog.",
+        "zh": "有，我有一只狗。"
+      },
+      {
+        "who": "👧",
+        "en": "What colour is it?",
+        "zh": "它是什么颜色？"
+      },
+      {
+        "who": "👦",
+        "en": "It is brown.",
+        "zh": "它是棕色的。"
+      },
+      {
+        "who": "👧",
+        "en": "I have a cat.",
+        "zh": "我有一只小猫。"
+      },
+      {
+        "who": "👦",
+        "en": "The dog is cute.",
+        "zh": "这只小狗很可爱。"
+      },
+      {
+        "who": "👧",
+        "en": "I can jump.",
+        "zh": "我会跳。"
+      }
+    ]
+  },
+  {
+    "id": "birthday",
+    "title": "过生日",
+    "sub": "Happy birthday!",
+    "icon": "🎉",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "Happy birthday!",
+        "zh": "生日快乐！"
+      },
+      {
+        "who": "👧",
+        "en": "Thank you very much.",
+        "zh": "非常感谢！"
+      },
+      {
+        "who": "👦",
+        "en": "Here is a present for you.",
+        "zh": "这是给你的礼物。"
+      },
+      {
+        "who": "👧",
+        "en": "Wow! I like it!",
+        "zh": "哇！我喜欢！"
+      },
+      {
+        "who": "👦",
+        "en": "Happy birthday to you!",
+        "zh": "祝你生日快乐！"
+      },
+      {
+        "who": "👧",
+        "en": "This is for you.",
+        "zh": "这是给你的。"
+      },
+      {
+        "who": "👦",
+        "en": "Have a good time!",
+        "zh": "玩得开心！"
+      }
+    ]
+  },
+  {
+    "id": "self",
+    "title": "自我介绍",
+    "sub": "My name is...",
+    "icon": "🙋",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "Hello, I'm Tom.",
+        "zh": "你好，我是汤姆。"
+      },
+      {
+        "who": "👦",
+        "en": "I'm eight. I'm in Grade Two.",
+        "zh": "我八岁，上二年级。"
+      },
+      {
+        "who": "👧",
+        "en": "Which class are you in?",
+        "zh": "你在几班？"
+      },
+      {
+        "who": "👦",
+        "en": "I'm in Class Three.",
+        "zh": "我在三班。"
+      }
+    ]
+  },
+  {
+    "id": "colours",
+    "title": "颜色",
+    "sub": "What colour is it?",
+    "icon": "🎨",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "What colour is your bag?",
+        "zh": "你的书包是什么颜色？"
+      },
+      {
+        "who": "👦",
+        "en": "It's blue.",
+        "zh": "是蓝色的。"
+      },
+      {
+        "who": "👧",
+        "en": "I like red.",
+        "zh": "我喜欢红色。"
+      },
+      {
+        "who": "👦",
+        "en": "Me too!",
+        "zh": "我也是！"
+      }
+    ]
+  },
+  {
+    "id": "numbers",
+    "title": "数一数",
+    "sub": "How many?",
+    "icon": "🔢",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "How many books?",
+        "zh": "有多少本书？"
+      },
+      {
+        "who": "👧",
+        "en": "One, two, three, four, five, six.",
+        "zh": "一、二、三、四、五、六。"
+      },
+      {
+        "who": "👦",
+        "en": "Six books!",
+        "zh": "六本书！"
+      },
+      {
+        "who": "👦",
+        "en": "One, two, three!",
+        "zh": "一、二、三！"
+      }
+    ]
+  },
+  {
+    "id": "whatsthis",
+    "title": "这是什么",
+    "sub": "What's this?",
+    "icon": "❓",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "What's this?",
+        "zh": "这是什么？"
+      },
+      {
+        "who": "👦",
+        "en": "It's a pencil.",
+        "zh": "是一支铅笔。"
+      },
+      {
+        "who": "👧",
+        "en": "What's that?",
+        "zh": "那是什么？"
+      },
+      {
+        "who": "👦",
+        "en": "It's an apple.",
+        "zh": "是一个苹果。"
+      }
+    ]
+  },
+  {
+    "id": "shopping",
+    "title": "在超市",
+    "sub": "Let's go shopping",
+    "icon": "🛒",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "Let's go to the supermarket.",
+        "zh": "我们去超市吧。"
+      },
+      {
+        "who": "👧",
+        "en": "OK! I want some fruit.",
+        "zh": "好！我想买点水果。"
+      },
+      {
+        "who": "👦",
+        "en": "Apples and bananas?",
+        "zh": "苹果和香蕉吗？"
+      },
+      {
+        "who": "👧",
+        "en": "Yes, please.",
+        "zh": "对，麻烦了。"
+      },
+      {
+        "who": "👦",
+        "en": "I want to buy an ice cream.",
+        "zh": "我想买一个冰淇淋。"
+      }
+    ]
+  },
+  {
+    "id": "park",
+    "title": "在公园",
+    "sub": "In the park",
+    "icon": "🌳",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "Look! A big tree.",
+        "zh": "看！一棵大树。"
+      },
+      {
+        "who": "👦",
+        "en": "And red flowers.",
+        "zh": "还有红色的花。"
+      },
+      {
+        "who": "👧",
+        "en": "Let's go boating.",
+        "zh": "我们去划船吧。"
+      },
+      {
+        "who": "👦",
+        "en": "Good idea!",
+        "zh": "好主意！"
+      },
+      {
+        "who": "👦",
+        "en": "Let's take a photo.",
+        "zh": "我们拍张照吧。"
+      },
+      {
+        "who": "👧",
+        "en": "Let's go to the park.",
+        "zh": "我们去公园吧。"
+      }
+    ]
+  },
+  {
+    "id": "afterschool",
+    "title": "放学后",
+    "sub": "After school",
+    "icon": "🎒",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "What do you do after school?",
+        "zh": "放学后你做什么？"
+      },
+      {
+        "who": "👧",
+        "en": "I draw pictures.",
+        "zh": "我画画。"
+      },
+      {
+        "who": "👦",
+        "en": "I play sports.",
+        "zh": "我做运动。"
+      },
+      {
+        "who": "👧",
+        "en": "That's fun!",
+        "zh": "真好玩！"
+      },
+      {
+        "who": "👦",
+        "en": "Let's play together.",
+        "zh": "我们一起玩吧。"
+      },
+      {
+        "who": "👧",
+        "en": "Let's play a game.",
+        "zh": "我们玩个游戏吧。"
+      },
+      {
+        "who": "👦",
+        "en": "Let's sing a song.",
+        "zh": "我们唱首歌吧。"
+      },
+      {
+        "who": "👧",
+        "en": "Can I share your toy?",
+        "zh": "我可以分享你的玩具吗？"
+      }
+    ]
+  },
+  {
+    "id": "time",
+    "title": "问时间",
+    "sub": "What time is it?",
+    "icon": "🕐",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "What time is it?",
+        "zh": "几点了？"
+      },
+      {
+        "who": "👦",
+        "en": "It's seven o'clock.",
+        "zh": "七点了。"
+      },
+      {
+        "who": "👧",
+        "en": "Time for breakfast.",
+        "zh": "该吃早饭了。"
+      },
+      {
+        "who": "👦",
+        "en": "Let's go!",
+        "zh": "走吧！"
+      }
+    ]
+  },
+  {
+    "id": "routine",
+    "title": "一天作息",
+    "sub": "My day",
+    "icon": "🌞",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "When do you get up?",
+        "zh": "你几点起床？"
+      },
+      {
+        "who": "👧",
+        "en": "I get up at seven.",
+        "zh": "我七点起床。"
+      },
+      {
+        "who": "👦",
+        "en": "I go to bed at nine.",
+        "zh": "我九点睡觉。"
+      },
+      {
+        "who": "👩",
+        "en": "Get up!",
+        "zh": "起床啦！"
+      },
+      {
+        "who": "👦",
+        "en": "Wash your hands.",
+        "zh": "洗手。"
+      },
+      {
+        "who": "👩",
+        "en": "Brush your teeth.",
+        "zh": "刷牙。"
+      },
+      {
+        "who": "👩",
+        "en": "Have breakfast.",
+        "zh": "吃早饭。"
+      },
+      {
+        "who": "👦",
+        "en": "I'm hungry.",
+        "zh": "我饿了。"
+      },
+      {
+        "who": "👩",
+        "en": "Go to bed.",
+        "zh": "去睡觉吧。"
+      },
+      {
+        "who": "👩",
+        "en": "Have lunch.",
+        "zh": "吃午饭。"
+      },
+      {
+        "who": "👩",
+        "en": "Have dinner.",
+        "zh": "吃晚饭。"
+      }
+    ]
+  },
+  {
+    "id": "myhome",
+    "title": "我的家",
+    "sub": "This is my home",
+    "icon": "🏠",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "This is my home.",
+        "zh": "这是我的家。"
+      },
+      {
+        "who": "👦",
+        "en": "Is this your bedroom?",
+        "zh": "这是你的卧室吗？"
+      },
+      {
+        "who": "👧",
+        "en": "Yes. And that is the kitchen.",
+        "zh": "是的。那是厨房。"
+      }
+    ]
+  },
+  {
+    "id": "polite",
+    "title": "礼貌用语",
+    "sub": "Excuse me / Thank you",
+    "icon": "🤝",
+    "lines": [
+      {
+        "who": "👦",
+        "en": "Excuse me.",
+        "zh": "打扰一下。"
+      },
+      {
+        "who": "👧",
+        "en": "Yes?",
+        "zh": "怎么了？"
+      },
+      {
+        "who": "👦",
+        "en": "Can I use your ruler?",
+        "zh": "我能用一下你的尺子吗？"
+      },
+      {
+        "who": "👧",
+        "en": "Sure, here you are.",
+        "zh": "当然，给你。"
+      },
+      {
+        "who": "👦",
+        "en": "Thank you!",
+        "zh": "谢谢你！"
+      },
+      {
+        "who": "👧",
+        "en": "You're welcome.",
+        "zh": "不客气。"
+      },
+      {
+        "who": "👦",
+        "en": "Sorry.",
+        "zh": "对不起。"
+      },
+      {
+        "who": "👧",
+        "en": "It's OK.",
+        "zh": "没关系。"
+      },
+      {
+        "who": "👦",
+        "en": "Can I help you?",
+        "zh": "我能帮你吗？"
+      },
+      {
+        "who": "👦",
+        "en": "I'm sorry, I'm late.",
+        "zh": "对不起，我迟到了。"
+      }
+    ]
+  },
+  {
+    "id": "clothes",
+    "title": "天冷穿衣",
+    "sub": "Put on your coat",
+    "icon": "🧥",
+    "lines": [
+      {
+        "who": "👧",
+        "en": "It's cold.",
+        "zh": "天气冷。"
+      },
+      {
+        "who": "👦",
+        "en": "Put on your coat.",
+        "zh": "穿上你的外套。"
+      },
+      {
+        "who": "👧",
+        "en": "OK, and my gloves.",
+        "zh": "好的，还有手套。"
+      }
+    ]
+  },
+  {
+    "id": "trip",
+    "title": "外出出行",
+    "sub": "Let's go out",
+    "icon": "🚌",
+    "lines": [
+      {
+        "who": "👩",
+        "en": "Wait for the bus.",
+        "zh": "等公交车。"
+      },
+      {
+        "who": "👩",
+        "en": "Get on the bus.",
+        "zh": "上公交车。"
+      },
+      {
+        "who": "👦",
+        "en": "Get off the bus.",
+        "zh": "下公交车。"
+      },
+      {
+        "who": "👧",
+        "en": "Where is the toilet?",
+        "zh": "洗手间在哪里？"
+      },
+      {
+        "who": "👦",
+        "en": "I'm tired.",
+        "zh": "我累了。"
+      },
+      {
+        "who": "👩",
+        "en": "Let's go home.",
+        "zh": "我们回家吧。"
+      }
+    ]
+  },
+  {
+    "id": "praise",
+    "title": "夸奖鼓励",
+    "sub": "Good job!",
+    "icon": "👏",
+    "lines": [
+      {
+        "who": "👩‍🏫",
+        "en": "Good job!",
+        "zh": "做得好！"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "You are super!",
+        "zh": "你太棒了！"
+      },
+      {
+        "who": "👧",
+        "en": "Thank you for your help.",
+        "zh": "谢谢你的帮助。"
+      },
+      {
+        "who": "👩‍🏫",
+        "en": "Come on!",
+        "zh": "加油！"
+      }
+    ]
+  }
+];
